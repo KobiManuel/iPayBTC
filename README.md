@@ -1,1 +1,1 @@
-# iPayBTC
+# iPayBTC Landing page
