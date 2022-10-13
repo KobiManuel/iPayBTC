@@ -1,0 +1,700 @@
+* {
+  text-transform: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Arimo", sans-serif;
+}
+.top-section-bg {
+  background-image: url(../assets/about-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 768px;
+}
+.navbar {
+  padding-top: 24px;
+}
+.logo-icon {
+  background-image: url(../assets/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 24px;
+  width: 75.59680938720703px;
+  border-radius: 0px;
+  margin: 0;
+  padding: 0;
+}
+.unordered-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0%;
+  padding-left: 0;
+}
+.links {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: "U8";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  padding-right: 40px;
+  display: flex;
+
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.btn-login {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #f2f2f5;
+  padding-right: 24px;
+}
+.btn-register {
+  background: #2c50ee;
+  border-radius: 4px;
+  border: 0;
+
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+  height: 30px;
+  width: 83px;
+}
+.header-buttons {
+  grid-column-end: -1 !important;
+}
+.top-section-content {
+  position: relative;
+  text-align: center;
+  margin-top: 161px;
+}
+.content-container {
+  position: absolute;
+  max-width: 912px;
+  left: 15%;
+  text-align: center;
+}
+
+.top-content-title {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #2c50ee;
+}
+/*.top-content-header{
+    position: absolute;
+    top: -20px;
+    left: 21%;
+max-width: 700px;
+text-align: center;
+}
+.content-description{
+    position: absolute;
+    left: 27%;
+    height: 66px;
+max-width: 550px;
+top: 198px;
+
+} */
+.top-content-header {
+  margin-top: -40px;
+  padding-top: 0;
+}
+.content-description {
+  margin-top: -40px;
+  padding-top: 0;
+  text-align: center;
+  max-width: 663px;
+  max-height: 66px;
+  margin-left: 120px;
+}
+.header-content {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 82px;
+  text-align: center;
+
+  color: #ffffff;
+  margin-top: 0;
+  padding-top: 0;
+}
+.content-description-text {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 0;
+  padding-top: 0;
+}
+.floating-form {
+  position: absolute;
+  top: 570px;
+  left: 160px;
+  height: 594px;
+  background: #ffffff;
+  box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.25);
+}
+
+.form-title {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #030142;
+}
+label {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #23232c;
+}
+input {
+  margin-top: 7.57px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 4px;
+  height: 40px;
+  width: 250px;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  border: 0.5px solid rgba(0, 0, 0, 0.25);
+  color: rgba(0, 0, 0, 0.25);
+}
+textarea {
+  margin-top: 8px;
+  height: 120px;
+  width: 515px;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+.form-description {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #030142;
+}
+.form-btn {
+  width: 250px;
+  height: 40px;
+
+  background: #29cca2;
+  border-radius: 4px;
+
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+  border: 0;
+}
+.floating-form-lhs {
+  grid-column-start: 4 !important;
+}
+.floating-form-rhs {
+  background: #cd9933;
+  height: 594px;
+  width: 350px;
+  box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.25);
+}
+.form-rhs-inner {
+  width: 250px;
+}
+.address-title {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.address-mail {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.address-office {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-social {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.map-bg {
+  background-image: url(../assets/map.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 219px;
+  width: 250px;
+}
+.form-rhs-inner {
+  padding-left: 50px;
+  padding-top: 60px;
+}
+.floating-section-form {
+  padding-top: 40px;
+  padding-left: 170px;
+}
+.white-space {
+  width: 100%;
+  height: 500px;
+}
+.passion-section {
+  margin-bottom: 130px;
+}
+.lhs-title {
+  height: 98px;
+  width: 216px;
+}
+.passion-title-text {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+
+  color: #030142;
+}
+.passion-description {
+  width: 490px;
+}
+.passion-description-text {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: rgba(3, 1, 66, 0.6);
+}
+.start-btn {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #2c50ee;
+  border: 0;
+  background-color: #e7eaf8;
+  mix-blend-mode: normal;
+  border-radius: 4px;
+  height: 53px;
+  width: 157px;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.passion-section-img {
+  margin-left: 20px;
+  width: 515px;
+  height: 500px;
+  background: #e2e7f9;
+  border-radius: 8px;
+}
+.passion-section-rhs {
+  grid-column-end: -1 !important;
+}
+.passion-section-lhs {
+  position: relative;
+}
+.passion-content-container {
+  position: absolute;
+  top: 15%;
+}
+.passion-section2-bg {
+  background-image: url(../assets/passion-section-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 700px;
+}
+.passion-section-img2 {
+  width: 515px;
+  height: 500px;
+  background: #e2e7f9;
+  border-radius: 8px;
+}
+
+.passion-section2 {
+  padding-top: 134px;
+}
+.rhs-title {
+  height: 99px;
+  width: 417px;
+}
+.passion-section2-rhs {
+  position: relative;
+  grid-column-end: -1 !important;
+}
+.passion-content-container2 {
+  position: absolute;
+  top: 20%;
+  margin-left: 60px;
+}
+.noise-layer {
+  text-align: center;
+  background: #f8f9fb;
+}
+.noise-layer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.image-collage {
+  background-image: url(../assets/image-collage.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 481px;
+  width: 482px;
+}
+.noise-layer-title {
+  top: 300px;
+  height: 99px;
+  width: 500px;
+}
+.title-text {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+
+  color: #030142;
+}
+.noise-layer-description {
+  height: 44px;
+  width: 900px;
+}
+.description-text {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+
+  color: rgba(3, 1, 66, 0.6);
+}
+.app-stores {
+  display: flex;
+  gap: 20px;
+}
+.apple-store {
+  background-image: url(../assets/apple-store.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 56px;
+  width: 188px;
+}
+.play-store {
+  background-image: url(../assets/play-store.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 56px;
+  width: 188px;
+}
+.team-section-bg {
+  background-image: url(../assets/team-section-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 685px;
+}
+.team-section-header {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+.team-section-description {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.team-avatars {
+  height: 290px;
+  width: 250px;
+  padding-top: 20px;
+}
+.team-mate-name {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 6px;
+  margin-bottom: 0;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.team-mate-role {
+  margin-top: 4px;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.team-section-container {
+  padding-top: 30px;
+}
+.trust-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 96px;
+}
+.trust-section-header {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: #030142;
+}
+.trust-section-description {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: rgba(3, 1, 66, 0.6);
+}
+.trust-section-brands {
+  background-image: url(../assets/brands.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 30px;
+  width: 885px;
+  height: 60px;
+}
+.benefits-section{
+  padding-top: 210px;
+  padding-bottom: 206px;
+background: #F8F9FB;
+}
+.benefits-section-lhs{
+  position: relative;
+}
+.benefits-container-lhs{
+  position: relative;
+  top: 15%;
+}
+.benefits-title-lhs {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #2c50ee;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.green-dash {
+  height: 3px;
+  width: 20px;
+  background: #31b34b;
+}
+.benefits-header-lhs {
+  height: 99px;
+  width: 460px;
+}
+.benefits-header-text {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+
+  color: #030142;
+}
+.benefits-section-description {
+  height: 88px;
+  width: 490px;
+  margin-bottom: 41px;
+}
+.benefits-description-text {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: rgba(3, 1, 66, 0.6);
+}
+.benefits-section-img {
+  background-image: url(../assets/benefits-section-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 515px;
+  height: 500px;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+.footer-section{
+  padding-top: 110px;
+  padding-bottom: 105px;
+}
+.footer-grid-one{
+  height: 180px;
+width: 322px;
+margin-top: 20px;
+grid-column-start: 2 !important;
+}
+.footer-quick-links{
+  grid-column-start: 4 !important;
+  width: 180px;
+}
+.footer-resources{
+  grid-column-start: 7 !important;
+}
+.footer-address{
+  grid-column-start: 10 !important;
+  width: 210px;
+}
+
+.footer-logo{
+  background-image: url(../assets/footer-logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 24px;
+width: 76px;
+}
+.footer-header{
+  
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #030142;
+
+}
+.footer-grey-text{
+  
+
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+padding-bottom: 5px;
+color: rgba(3, 1, 66, 0.6);
+
+}
+.follow-prompt{
+  
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+
+color: #030142;
+
+}
+.footer-ipayBTC-website{
+  
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+color: #030142;
+}
+li{
+  list-style-type: none;
+}
